@@ -1,1 +1,1 @@
-web: ./versions $PORT
+web: ./versions.sh $PORT
