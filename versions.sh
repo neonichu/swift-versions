@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 VERSIONS=`curl -s 'https://swift.org/download/'|grep 'osx.pkg'|sed -e 's_.*/swift-\(.*\)-osx.pkg.*_\1_'`
 
