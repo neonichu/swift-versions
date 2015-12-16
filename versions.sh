@@ -10,7 +10,7 @@ fi
 
 while true
 do
-	if [ `uname` == "Darwin" ]
+	if [ "`uname`" == "Darwin" ]
 	then
 		echo "\n$VERSIONS"|nc -l localhost $1
 	else
