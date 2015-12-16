@@ -14,7 +14,7 @@ do
 	then
 		echo "\n$VERSIONS"|nc -l localhost $1
 	else
-		echo -e "HTTP/1.1 200 OK\r\nConnection-Close\r\n\r\n $VERSIONS"|nc -l -p $1
+		echo -e "HTTP/1.1 200 OK\r\n\r\n $VERSIONS"|nc -l -p $1
 	fi
 
 	if [ $? -ne 0 ]
