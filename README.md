@@ -1,5 +1,7 @@
 # swift-versions
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 Simple Heroku app for providing a list of Swift versions available for download on [`swift.org`][1].
 
 ## Usage
